@@ -24,7 +24,10 @@ jobs:
         
     - name: Change wrapper permissions
       run: chmod +x ./gradlew
-      
+    - name: Build with Gradle
+      run: ./gradlew build
+  
+  
     - name: Run Espresso Tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
