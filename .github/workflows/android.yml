@@ -26,13 +26,3 @@ jobs:
       run: chmod +x ./gradlew
     - name: Build with Gradle
       script: bash ./gradlew build
-
-
-    - name: Run Espresso Tests
-      uses: reactivecircus/android-emulator-runner@v2
-      with:
-          api-level: 28
-          target: default]
-          arch: x86_64
-          profile: Nexus 6
-          script: ./gradlew connectedCheck --stacktrace
