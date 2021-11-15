@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     strategy:
       matrix:
         api-level: [31]
@@ -22,12 +22,15 @@ jobs:
       with:
         java-version: 11
         
-    - name: Change wrapper permissions
+    - name: build
       run: chmod +x ./gradlew
     - name: Build with Gradle
-      run: ./gradlew build
+      run: bash ./gradlew build
   
-  
+     - name: Execute Unit Tests (gradlew test)
+       run: bash ./gradlew test --stacktrace
+
+
     - name: Run Espresso Tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
@@ -35,4 +38,4 @@ jobs:
           target: default]
           arch: x86_64
           profile: Nexus 6
-          run: ./gradlew connectedDebugAndroidTest
+          script: ./gradlew connectedCheck --stacktrace
