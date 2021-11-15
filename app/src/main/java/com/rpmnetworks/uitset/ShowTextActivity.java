@@ -27,7 +27,7 @@ import com.google.common.base.Strings;
 
 public class ShowTextActivity extends Activity {
 
-    // The name of the extra data sent through an {@link Intent}.
+    // The name of the extra data sent through an {@link Intent}. ds
     public final static String KEY_EXTRA_MESSAGE =
             "com.example.android.testing.espresso.basicsample.MESSAGE";
 
