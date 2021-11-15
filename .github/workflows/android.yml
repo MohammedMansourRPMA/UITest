@@ -25,9 +25,8 @@ jobs:
     - name: build
       run: chmod +x ./gradlew
     - name: Build with Gradle
-      run: bash ./gradlew build
-  
- 
+      script: bash ./gradlew build
+
 
     - name: Run Espresso Tests
       uses: reactivecircus/android-emulator-runner@v2
