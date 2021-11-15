@@ -27,9 +27,7 @@ jobs:
     - name: Build with Gradle
       run: bash ./gradlew build
   
-     - name: Execute Unit Tests (gradlew test)
-       run: bash ./gradlew test --stacktrace
-
+ 
 
     - name: Run Espresso Tests
       uses: reactivecircus/android-emulator-runner@v2
