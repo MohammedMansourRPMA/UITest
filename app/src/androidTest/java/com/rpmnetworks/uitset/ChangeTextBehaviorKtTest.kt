@@ -66,6 +66,7 @@ class ChangeTextBehaviorKtTest {
         onView(withId(R.id.show_text_view)).check(matches(withText(STRING_TO_BE_TYPED)))
     }
 
+    /*
     @Test
     fun changeText_newActivityField() {
         // Type text and then press the button.
@@ -77,6 +78,7 @@ class ChangeTextBehaviorKtTest {
         // This view is in a different Activity, no need to tell Espresso.
         onView(withId(R.id.show_text_view)).check(matches(withText(STRING_TO_BE_TYPED2)))
     }
+     */
 
     companion object {
         val STRING_TO_BE_TYPED = "Espresso"
