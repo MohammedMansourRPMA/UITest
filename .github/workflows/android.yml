@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: Run Test 
+    name: Run UiTest 
     runs-on: macos-latest
     steps:
       - name: Checkout
