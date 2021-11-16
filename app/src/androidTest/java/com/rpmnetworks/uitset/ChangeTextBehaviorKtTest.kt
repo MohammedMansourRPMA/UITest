@@ -68,6 +68,7 @@ class ChangeTextBehaviorKtTest {
 
 
 
+    /*
 
     @Test
     fun changeText_newActivityField() {
@@ -80,6 +81,8 @@ class ChangeTextBehaviorKtTest {
         // This view is in a different Activity, no need to tell Espresso.
         onView(withId(R.id.show_text_view)).check(matches(withText(STRING_TO_BE_TYPED2)))
     }
+
+     */
 
 
 
