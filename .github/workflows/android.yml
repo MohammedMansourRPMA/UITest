@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: Run Test Suite [Unit, Instrumented]
+    name: Run Test 
     runs-on: macos-latest
     steps:
       - name: Checkout
