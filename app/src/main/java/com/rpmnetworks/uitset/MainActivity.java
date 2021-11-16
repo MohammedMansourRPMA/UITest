@@ -30,6 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private TextView mTextView;
 
     // The EditText where the user types the message.
+    // The EditText where the user types the message.
     private EditText mEditText;
 
     @Override
