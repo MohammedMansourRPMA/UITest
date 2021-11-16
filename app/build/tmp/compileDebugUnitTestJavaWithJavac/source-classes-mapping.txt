@@ -1,0 +1,2 @@
+com/rpmnetworks/uitset/ChangeTextBehaviorLocalTest.java
+ com.rpmnetworks.uitset.ChangeTextBehaviorLocalTest

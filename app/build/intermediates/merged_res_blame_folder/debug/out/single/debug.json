@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\work\\test\\UiTset\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\work\\test\\UiTset\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\work\\test\\UiTset\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\work\\test\\UiTset\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\work\\test\\UiTset\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher.png.flat",
+        "source": "D:\\work\\test\\UiTset\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\work\\test\\UiTset\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\work\\test\\UiTset\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\work\\test\\UiTset\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_show_text.xml.flat",
+        "source": "D:\\work\\test\\UiTset\\app\\src\\main\\res\\layout\\activity_show_text.xml"
+    }
+]

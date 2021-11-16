@@ -1,0 +1,6 @@
+com/rpmnetworks/uitset/BuildConfig.java
+ com.rpmnetworks.uitset.BuildConfig
+com/rpmnetworks/uitset/MainActivity.java
+ com.rpmnetworks.uitset.MainActivity
+com/rpmnetworks/uitset/ShowTextActivity.java
+ com.rpmnetworks.uitset.ShowTextActivity
