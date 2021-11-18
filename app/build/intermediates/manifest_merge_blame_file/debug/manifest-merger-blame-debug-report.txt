@@ -10,44 +10,77 @@
 9        android:targetSdkVersion="31" />
 9-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:5:5-26:19
-12        android:allowBackup="true"
-12-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\f151290c6ded99e73cc30cce4233ae32\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@drawable/ic_launcher"
-16-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:7:9-45
-17        android:label="@string/app_name"
-17-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@drawable/ic_launcher"
-18-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:9:9-50
-19        android:supportsRtl="true" >
-19-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:10:9-35
-20        <activity
-20-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:13:9-21:20
-21            android:name="com.rpmnetworks.uitset.MainActivity"
-21-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:14:13-41
-22            android:exported="true"
-22-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:16:13-36
-23            android:label="@string/app_name" >
-23-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:15:13-45
-24            <intent-filter>
-24-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:17:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:17-69
-25-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:17-77
-27-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="com.rpmnetworks.uitset.ShowTextActivity" />
-30-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:23:9-53
-30-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:23:19-51
-31    </application>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:11:5-67
+11-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:12:5-79
+12-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:12:22-76
+13
+14    <application
+14-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:5:5-27:19
+15        android:name="com.rpmnetworks.uitset.classes.MyCustomApplication"
+15-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:6:9-52
+16        android:allowBackup="true"
+16-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\f151290c6ded99e73cc30cce4233ae32\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/ic_launcher"
+20-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:8:9-45
+21        android:label="@string/app_name"
+21-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:9:9-41
+22        android:largeHeap="true"
+22-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:22:18-42
+23        android:roundIcon="@drawable/ic_launcher"
+23-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:10:9-50
+24        android:supportsRtl="true"
+24-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:11:9-35
+25        android:testOnly="true" >
+26        <activity
+26-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:14:9-22:20
+27            android:name="com.rpmnetworks.uitset.MainActivity"
+27-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:15:13-41
+28            android:exported="true"
+28-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:17:13-36
+29            android:label="@string/app_name" >
+29-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:16:13-45
+30            <intent-filter>
+30-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:17-69
+31-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:25-66
 32
-33</manifest>
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:20:17-77
+33-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.rpmnetworks.uitset.ShowTextActivity" />
+36-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:24:9-53
+36-->D:\work\test\UiTset\app\src\main\AndroidManifest.xml:24:19-51
+37
+38        <receiver
+38-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:23:9-29:20
+39            android:name="com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver"
+39-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:24:13-86
+40            android:exported="true" >
+40-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:25:13-36
+41            <intent-filter>
+41-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:26:13-28:29
+42                <action android:name="com.android.vending.INSTALL_REFERRER" />
+42-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:27:17-79
+42-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:27:25-76
+43            </intent-filter>
+44        </receiver>
+45
+46        <service
+46-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:31:9-33:72
+47            android:name="com.smartlook.sdk.smartlook.job.worker.record.UploadRecordJob"
+47-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:32:13-89
+48            android:permission="android.permission.BIND_JOB_SERVICE" />
+48-->[com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:33:13-69
+49    </application>
+50
+51</manifest>

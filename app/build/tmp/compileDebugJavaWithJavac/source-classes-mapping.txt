@@ -1,5 +1,7 @@
 com/rpmnetworks/uitset/BuildConfig.java
  com.rpmnetworks.uitset.BuildConfig
+com/rpmnetworks/uitset/classes/MyCustomApplication.java
+ com.rpmnetworks.uitset.classes.MyCustomApplication
 com/rpmnetworks/uitset/MainActivity.java
  com.rpmnetworks.uitset.MainActivity
 com/rpmnetworks/uitset/ShowTextActivity.java

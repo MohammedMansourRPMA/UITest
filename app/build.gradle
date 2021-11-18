@@ -66,4 +66,7 @@ dependencies {
     testImplementation 'androidx.test.espresso:espresso-intents:' + rootProject.espressoVersion
     testImplementation 'androidx.test.ext:truth:' + rootProject.extTruthVersion
 
+    implementation 'com.smartlook.recording:app:1.8.7-native-support'
+
+
 }

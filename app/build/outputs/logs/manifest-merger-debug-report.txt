@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\b810fbd67bac4a05cbf88abe5cff703f\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\iassy\.gradle\caches\transforms-3\0a2abf7e181c5770d82904112c96f8dd\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\iassy\.gradle\caches\transforms-3\13743e8ec4a7f48d6cacffd2d612a4a3\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -40,25 +41,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\iassy\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\iassy\.gradle\caches\transforms-3\924db5bfe5c57b30b73f6f45c724441e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\iassy\.gradle\caches\transforms-3\42ffa41eed66a835645ab26fba929fd1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\iassy\.gradle\caches\transforms-3\4ec61633d6d3cdffce59747229c850df\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:22:5-34:19
+MERGED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:22:5-34:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\iassy\.gradle\caches\transforms-3\0a2abf7e181c5770d82904112c96f8dd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\iassy\.gradle\caches\transforms-3\0a2abf7e181c5770d82904112c96f8dd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\iassy\.gradle\caches\transforms-3\13743e8ec4a7f48d6cacffd2d612a4a3\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -70,41 +73,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ia
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\f151290c6ded99e73cc30cce4233ae32\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:9:9-50
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:10:9-50
+	android:largeHeap
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:22:18-42
 	android:icon
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:7:9-45
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:8:9-45
 	android:allowBackup
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:7:9-35
+	android:name
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:6:9-52
 activity#com.rpmnetworks.uitset.MainActivity
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:13:9-21:20
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:16:13-45
 	android:exported
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.rpmnetworks.uitset.ShowTextActivity
-ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:23:9-53
+ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:24:9-53
 	android:name
-		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:23:19-51
+		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml:24:19-51
 uses-sdk
 INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
+MERGED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:7:5-9:41
+MERGED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\b810fbd67bac4a05cbf88abe5cff703f\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\iassy\.gradle\caches\transforms-3\b810fbd67bac4a05cbf88abe5cff703f\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\iassy\.gradle\caches\transforms-3\0a2abf7e181c5770d82904112c96f8dd\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
@@ -187,3 +196,29 @@ INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 		ADDED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
 		INJECTED from D:\work\test\UiTset\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:12:22-76
+receiver#com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:23:9-29:20
+	android:exported
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:24:13-86
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:26:13-28:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:27:17-79
+	android:name
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:27:25-76
+service#com.smartlook.sdk.smartlook.job.worker.record.UploadRecordJob
+ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:31:9-33:72
+	android:permission
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:33:13-69
+	android:name
+		ADDED from [com.smartlook.recording:app:1.8.7-native-support] C:\Users\iassy\.gradle\caches\transforms-3\9bc5318b9fbf1f04fbe6affb9e75202f\transformed\jetified-app-1.8.7-native-support\AndroidManifest.xml:32:13-89

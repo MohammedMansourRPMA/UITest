@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.smartlook.recording:app:1.8.7-native-support@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9bc5318b9fbf1f04fbe6affb9e75202f/transformed/jetified-app-1.8.7-native-support/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9bc5318b9fbf1f04fbe6affb9e75202f/transformed/jetified-app-1.8.7-native-support/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9bc5318b9fbf1f04fbe6affb9e75202f/transformed/jetified-app-1.8.7-native-support/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
