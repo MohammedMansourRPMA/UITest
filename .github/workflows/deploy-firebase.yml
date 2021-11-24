@@ -1,0 +1,64 @@
+name: deploy-firebase
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    name: Run Test
+    runs-on: macos-latest
+
+
+
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set Up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+
+      - name: Execute Unit Tests (gradlew test)
+        run: bash ./gradlew test --stacktrace
+
+      - name: Execute Instrumentation Tests (gradlew connectedCheck - api 23)
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 23
+          target: default
+          arch: x86
+          profile: Nexus 6
+          script: ./gradlew connectedCheck --stacktrace
+
+
+      - name: Upload Android Test Reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: android-test-reports
+          path: '**/build/reports/androidTests/'
+
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+
+      - uses: actions/download-artifact@master
+        with:
+          name: release.apk
+      - name: upload artifact to Firebase App Distribution
+      - uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: 1:128292052019:android:c7880c3c3db6da89455746
+          token: 1//03BGMJcBBlVkoCgYIARAAGAMSNwF-L9IrF61eM4ult3kOPAOGXgiCzTrAh0tYAnXu0IADI20PSpImhQc8DkLMeknwNpE58gZZJzA
+          groups: QA
+          file: app-release-unsigned-signed.apk
+
+

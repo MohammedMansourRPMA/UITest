@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.ext:truth:1.3.0-rc01@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/388b8034a77dfcc823ec13e038e2bfcb/transformed/jetified-truth-1.3.0-rc01/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/388b8034a77dfcc823ec13e038e2bfcb/transformed/jetified-truth-1.3.0-rc01/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/388b8034a77dfcc823ec13e038e2bfcb/transformed/jetified-truth-1.3.0-rc01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5542baa21cb9e04ecbc0f80d40f7fbc8/transformed/jetified-truth-1.3.0-rc01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5542baa21cb9e04ecbc0f80d40f7fbc8/transformed/jetified-truth-1.3.0-rc01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5542baa21cb9e04ecbc0f80d40f7fbc8/transformed/jetified-truth-1.3.0-rc01/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.ext/truth/1.3.0-rc01/4f39259d8f44b58e8857ea89a7cfded599f74781/truth-1.3.0-rc01-javadoc.jar!/" />
