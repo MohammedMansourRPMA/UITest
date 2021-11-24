@@ -22,14 +22,3 @@ jobs:
           token: 1//03BGMJcBBlVkoCgYIARAAGAMSNwF-L9IrF61eM4ult3kOPAOGXgiCzTrAh0tYAnXu0IADI20PSpImhQc8DkLMeknwNpE58gZZJzA
           groups: QA
           file: app-release-unsigned-signed.apk
-
-
-      - name: Get sample .apk for test purposes
-        run: wget https://github.com/appium/appium/raw/master/sample-code/apps/ApiDemos-debug.apk
-      - name: Upload artifact to Firebase Distribution
-        uses: ./
-        with:
-          appId: 1:128292052019:android:c7880c3c3db6da89455746
-          token: 1//03BGMJcBBlVkoCgYIARAAGAMSNwF-L9IrF61eM4ult3kOPAOGXgiCzTrAh0tYAnXu0IADI20PSpImhQc8DkLMeknwNpE58gZZJzA
-          groups: QA
-          file: ApiDemos-debug.apk
