@@ -11,11 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Download Artifact
-        uses: actions/download-artifact@master
+      - uses: actions/download-artifact@master
         with:
-          name: build
-          path: build
+          name: release.apk
 
 
 
